@@ -258,7 +258,7 @@ class OOI(DataSource):
                 **time_delta_value** - Positive integer value to subtract from the end time to get the start time for subsetting. \n
                 **time_check** - set to true (default) to ensure the request times fall within the stream data availability \n
                 **exec_dpa** - boolean value specifying whether to execute all data product algorithms to return L1/L2 parameters (Default is True) \n
-                **provenance** - boolean value specifying whether provenance information should be included in the data set (Default is True) \n
+                **provenance** - boolean value specifying whether provenance information should be included in the data set (Default is False) \n
 
         Returns:
             self: Modified OOI Object. Use ``raw()`` to see either data url for netcdf or json result for json.

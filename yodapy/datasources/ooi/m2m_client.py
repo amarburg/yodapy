@@ -554,7 +554,7 @@ class M2MClient:
                             time_delta_type=None,
                             time_delta_value=None, begin_ts=None, end_ts=None,
                             time_check=True, exec_dpa=True,
-                            application_type='netcdf', provenance=True,
+                            application_type='netcdf', provenance=False,
                             limit=-1, annotations=False, email=None):
         """Return the list of request urls that conform to the UFrame API for the specified
         fully or paritally-qualified reference_designator.  Request urls are formatted
